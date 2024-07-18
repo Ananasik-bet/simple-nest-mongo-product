@@ -20,7 +20,7 @@ import {
 } from '@nestjs/swagger';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { AccessUserGuard } from '../auth/guards/access-user.guard';
-import { Project } from './schemas/projects.schema';
+import { Project } from './schemas/project.schema';
 
 @ApiTags('Projects')
 @ApiBearerAuth()
